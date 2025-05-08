@@ -27,14 +27,14 @@ public class Principal {
 		idadePessoa = sc.nextInt();
 		System.out.print("Informe o valor hora: ");
 		valorHora = sc.nextFloat();
-		salariototal = horasTrabalhadas * valorHora 
+		salarioTotal = horasTrabalhadas * valorHora;
 
 		// saída de dados
 		System.out.println("Acho que o nome que você informou é: " + nomePessoa);
-		System.out.println("Horas Trabalhadas: " + horasTrabalhadas);
 		System.out.println("Seu nome é: " + nomePessoa + " e sua idade é: " + idadePessoa);
-		System.out.println("Valor hora: ");
-		System.out.println("Salário: ");
+		System.out.println("Horas Trabalhadas: " + horasTrabalhadas);
+		System.out.println("Valor da hora: " + valorHora);
+		System.out.println("Salário: R$ " + salarioTotal);
 		sc.close();
 	}
 
